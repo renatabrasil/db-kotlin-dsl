@@ -1,4 +1,4 @@
-package com.edu.dbkotlindsl.domain
+package com.edu.dbkotlindsl.model.domain
 
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

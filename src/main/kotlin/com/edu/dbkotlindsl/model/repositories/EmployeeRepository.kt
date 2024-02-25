@@ -1,6 +1,6 @@
-package com.edu.dbkotlindsl.repository
+package com.edu.dbkotlindsl.model.repositories
 
-import com.edu.dbkotlindsl.domain.Employee
+import com.edu.dbkotlindsl.model.domain.Employee
 import org.springframework.data.repository.CrudRepository
 import org.springframework.data.repository.PagingAndSortingRepository
 

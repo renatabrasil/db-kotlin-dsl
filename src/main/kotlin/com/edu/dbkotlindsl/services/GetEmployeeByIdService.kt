@@ -1,6 +1,6 @@
 package com.edu.dbkotlindsl.services
 
-import com.edu.dbkotlindsl.domain.Employee
+import com.edu.dbkotlindsl.model.domain.Employee
 import java.util.Optional
 
 interface GetEmployeeByIdService {

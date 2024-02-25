@@ -1,7 +1,7 @@
 package com.edu.dbkotlindsl.services.impl
 
-import com.edu.dbkotlindsl.domain.Employee
-import com.edu.dbkotlindsl.repository.EmployeeRepository
+import com.edu.dbkotlindsl.model.domain.Employee
+import com.edu.dbkotlindsl.model.repositories.EmployeeRepository
 import com.edu.dbkotlindsl.services.GetEmployeeByIdService
 import java.util.*
 
