@@ -10,13 +10,5 @@ import org.springframework.context.support.beans
 class DbKotlinDslApplication
 
 fun main(args: Array<String>) {
-    runApplication<DbKotlinDslApplication>(*args) {
-        addInitializers(
-            beans {
-                bean<EmployeeHandler>()
-                bean<ListEmployeesServiceImpl>()
-                bean(::routers)
-            }
-        )
-    }
+    runApplication<DbKotlinDslApplication>(*args)
 }
