@@ -1,8 +1,6 @@
 package com.edu.dbkotlindsl
 
 import com.edu.dbkotlindsl.controllers.EmployeeHandler
-import com.edu.dbkotlindsl.repository.EmployeeRepository
-import com.edu.dbkotlindsl.services.ListEmployeesService
 import com.edu.dbkotlindsl.services.impl.ListEmployeesServiceImpl
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -18,10 +16,7 @@ fun main(args: Array<String>) {
                 bean<EmployeeHandler>()
                 bean<ListEmployeesServiceImpl>()
                 bean(::routers)
-//            bean {
-//                val db = ref<javax.sql.DataSource>()
-//                CustomerService(db)
-//            }
-            })
+            }
+        )
     }
 }
